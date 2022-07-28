@@ -1,0 +1,60 @@
+
+.navbar {
+  background-color: rgb(206, 193, 168);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+
+  .logo-container {
+    padding: 1rem;
+    margin-left: 6rem;
+    a {
+      text-decoration: none;
+      color: rgb(78, 56, 14);
+      font-weight: 800;
+      
+    }
+   
+ 
+    
+  }
+
+  .menu-container {
+    padding: 1rem;
+    margin-right: 6rem;
+    position: relative;
+    a {
+      margin: 1rem;
+      text-decoration: none;
+      color: rgb(78, 56, 14);
+      font-weight: 800;
+      &:hover{
+        background-color: white;
+        padding: 1rem;
+        position: relative;
+      }
+    }
+   
+  }
+
+}
+
+@media screen and (max-width:768px){
+  .logo-container{
+    text-align: center;
+   width: 100%;
+  
+    
+  }
+  .menu-container{
+  margin-left: 3rem;
+    
+    a{
+      
+     margin-left: 2rem;
+    display: block;
+    }
+    
+  }
+}

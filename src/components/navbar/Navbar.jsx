@@ -9,13 +9,13 @@ const Navbar = () => {
         </a>
       </div>
       <div className="menu-container">
-        <a className="menu" href="">
+        <a className="menu" href="#">
           Home
         </a>
-        <a className="menu" href="">
+        <a className="menu" href="#">
           Login
         </a>
-        <a className="menu" href="">
+        <a className="menu" href="#">
           Register
         </a>
       </div>
